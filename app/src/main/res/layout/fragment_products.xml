@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.products.ProductsFragment">
+
+    <!-- ScrollView para mostrar los productos-->
+    <ScrollView
+        android:id="@+id/scrollProduct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <!-- GridLayout para las imágenes de los productos-->
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="2"
+            android:rowCount="4">
+
+            <!-- Código para mostrar los productos -->
+
+            <!-- Primer producto -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="7.5dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnCremaBarbaProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="cremaBarbaProduct"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <!-- Botón de favoritos -->
+                    <ImageView
+                        android:id="@+id/btnFavorite1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:contentDescription="@string/btnFavoProdu1"
+                        android:src="@drawable/ic_favorite_vacio" />
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/producto1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/producto1"
+                        android:src="@drawable/producto1" />
+
+                    <!-- Texto de Marca -->
+                    <TextView
+                        android:id="@+id/marca1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/imperial"
+                        android:textColor="@color/golden_rod" />
+
+                    <!-- Texto de descripción -->
+                    <TextView
+                        android:id="@+id/descrip1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cremaBarba"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de precio -->
+                    <TextView
+                        android:id="@+id/precio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cienPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Segundo producto -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnPomadaBarbaProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="pomadaBarbaProduct"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <!-- Botón de favoritos -->
+                    <ImageView
+                        android:id="@+id/btnFavorite2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:contentDescription="@string/btnFavoProdu2"
+                        android:src="@drawable/ic_favorite_vacio" />
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/producto2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/producto2"
+                        android:src="@drawable/producto2" />
+
+                    <!-- Texto de Marca -->
+                    <TextView
+                        android:id="@+id/marca2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/imperial"
+                        android:textColor="@color/golden_rod" />
+
+                    <!-- Texto de Descripción -->
+                    <TextView
+                        android:id="@+id/descrip2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/pomadaBarba"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cienPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Tercer producto -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="7.5dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnCremaProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="cremaProduct"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <!-- Botón de favoritos -->
+                    <ImageView
+                        android:id="@+id/btnFavorite3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:contentDescription="@string/btnFavoProdu3"
+                        android:src="@drawable/ic_favorite_vacio" />
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/producto3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/producto3"
+                        android:src="@drawable/producto3" />
+
+                    <!-- Texto de Marca -->
+                    <TextView
+                        android:id="@+id/marca3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/conchaNacar"
+                        android:textColor="@color/golden_rod" />
+
+                    <!-- Texto de Descripción -->
+                    <TextView
+                        android:id="@+id/descrip3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/crema"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/ochentaPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Cuarto producto -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnBalsamoBarbaProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="balsamoBarbaProduct"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <!-- Botón de favoritos -->
+                    <ImageView
+                        android:id="@+id/btnFavorite4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:contentDescription="@string/btnFavoProdu4"
+                        android:src="@drawable/ic_favorite_vacio" />
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/producto4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/producto4"
+                        android:src="@drawable/producto4" />
+
+                    <!-- Texto de Marca -->
+                    <TextView
+                        android:id="@+id/marca4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/donPorfirio"
+                        android:textColor="@color/golden_rod" />
+
+                    <!-- Texto de Descripción -->
+                    <TextView
+                        android:id="@+id/descrip4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/balsamoBarba"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cienPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Quinto producto -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="7.5dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnPolvoProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="polvoProduct"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <!-- Botón de favoritos -->
+                    <ImageView
+                        android:id="@+id/btnFavorite5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:contentDescription="@string/btnFavoProdu5"
+                        android:src="@drawable/ic_favorite_vacio" />
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/producto5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/producto5"
+                        android:src="@drawable/producto5" />
+
+                    <!-- Texto de Marca -->
+                    <TextView
+                        android:id="@+id/marca5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cuatroCuatro"
+                        android:textColor="@color/golden_rod" />
+
+                    <!-- Texto de Descripción -->
+                    <TextView
+                        android:id="@+id/descrip5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/polvoVolum"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cientoCincuentaPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Sexto producto -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnFibraProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="fibraProduct"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <!-- Botón de favoritos -->
+                    <ImageView
+                        android:id="@+id/btnFavorite6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:contentDescription="@string/btnFavoProdu6"
+                        android:src="@drawable/ic_favorite_vacio" />
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/producto6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/producto6"
+                        android:src="@drawable/producto6" />
+
+                    <!-- Texto de Marca -->
+                    <TextView
+                        android:id="@+id/marca6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/toppik"
+                        android:textColor="@color/golden_rod" />
+
+                    <!-- Texto de Descripción -->
+                    <TextView
+                        android:id="@+id/descrip6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/fibraCabello"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/ochentaPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Séptimo producto -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="7.5dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnSahmpooProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="shampooProduct"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <!-- Botón de favoritos -->
+                    <ImageView
+                        android:id="@+id/btnFavorite7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:contentDescription="@string/btnFavoProdu7"
+                        android:src="@drawable/ic_favorite_vacio" />
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/producto7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/producto7"
+                        android:src="@drawable/producto7" />
+
+                    <!-- Texto de Marca -->
+                    <TextView
+                        android:id="@+id/marca7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/graveBefore"
+                        android:textColor="@color/golden_rod" />
+
+                    <!-- Texto de Descripción -->
+                    <TextView
+                        android:id="@+id/descrip7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/shampooBarba"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cientoTreintaPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Octavo producto -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnCeraProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="ceraProduct"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <!-- Botón de favoritos -->
+                    <ImageView
+                        android:id="@+id/btnFavorite8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:contentDescription="@string/btnFavoProdu8"
+                        android:src="@drawable/ic_favorite_vacio" />
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/producto8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/producto8"
+                        android:src="@drawable/producto8" />
+
+                    <!-- Texto de Marca -->
+                    <TextView
+                        android:id="@+id/marca8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/fisticuffs"
+                        android:textColor="@color/golden_rod" />
+
+                    <!-- Texto de Descripción -->
+                    <TextView
+                        android:id="@+id/descrip8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cera"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cientoVeintePesos" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,192 @@
+<resources>
+    <!-- Strings para el login -->
+    <string name="app_name">Flack\'s Cut &amp; Connect</string>
+    <string name="mensaje_login">La aplicación móvil oficial de Flack\'s Barber Shop</string>
+    <string name="invitado">¿Deseas continuar como invitado?</string>
+    <string name="recordar">Recuérdame</string>
+    <string name="olvide_contraseña">¿Olvidaste tu contraseña?</string>
+    <string name="iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="iniciar_sesion_google">CONTINUAR CON GOOGLE</string>
+    <string name="no_cuenta">¿No tienes una cuenta?</string>
+    <string name="registrate">¡Regístrate!</string>
+
+    <!-- Strings para el singUp -->
+    <string name="mensaje_singup">Únete a Flack\'s Cut &amp; Connect hoy mismo</string>
+    <string name="crear_cuenta">CREAR CUENTA</string>
+    <string name="si_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="inicia_sesion">¡Inicia sesión!</string>
+
+    <!-- Strings para el contactUs -->
+    <string name="mensaje_contactus1">¡Contáctanos!</string>
+    <string name="mensaje_contactus2">En Flack\'s Barber Shop, nos importa conocer tu opinión.
+        Por favor, comparte cualquier problema, duda o sugerencia que puedas tener con nosotros.</string>
+    <string name="enviar_mensaje">ENVIAR MENSAJE</string>
+    <string name="deseas_hablar">¿Deseas hablar con nosotros? </string>
+    <string name="llamanos">¡Llámanos!</string>
+
+    <!-- Strings para el home -->
+    <string name="productos">Productos</string>
+    <string name="servicios">Servicios</string>
+    <string name="resenas">Reseñas</string>
+    <string name="contactanos">Contáctanos</string>
+    <string name="historial">Historial de actividad</string>
+    <string name="encuentranos">Encuentranos</string>
+    <string name="acerca_nosotros">Acerca de nosotros</string>
+    <string name="editar_perfil">Editar perfil</string>
+
+
+    <!--  Strings para las descripciones de las imágenes e iconos  -->
+
+    <string name="menuHambur">Menú de hamburguesa</string>
+    <string name="producto1">Crema para la barba</string>
+    <string name="producto2">Pomada para la barba</string>
+    <string name="producto3">Crema</string>
+    <string name="producto4">Bálsamo para la barba</string>
+    <string name="producto5">Polvo voluminizador</string>
+    <string name="producto6">Fibra para el cabello</string>
+    <string name="producto7">Shampoo para la barba</string>
+    <string name="producto8">Cera</string>
+    <string name="btnFavoProdu1">Botón de favorito</string>
+    <string name="btnFavoProdu2">Botón de favorito</string>
+    <string name="btnFavoProdu3">Botón de favorito</string>
+    <string name="btnFavoProdu4">Botón de favorito</string>
+    <string name="btnFavoProdu5">Botón de favorito</string>
+    <string name="btnFavoProdu6">Botón de favorito</string>
+    <string name="btnFavoProdu7">Botón de favorito</string>
+    <string name="btnFavoProdu8">Botón de favorito</string>
+
+    <!-- Strings para los servicios  -->
+
+    <!--  Strings para los tiempos de los servicios  -->
+
+    <string name="cuarentaSesenta">45 - 60 min</string>
+    <string name="treinta">30 min</string>
+    <string name="quinceVeinte">15 - 20 min</string>
+    <string name="diez">10 min</string>
+    <string name="sesenta">60 min</string>
+
+    <!--  Strings para los nombres de los servicios  -->
+
+    <string name="corteDesvan">Corte desvanecido</string>
+    <string name="arregloBarba">Arreglo de barba</string>
+    <string name="corteEscolar">Corte escolar</string>
+    <string name="afeitadoExp">Afeitado express</string>
+    <string name="disenos">Diseños</string>
+    <string name="arregloCeja">Arreglo de ceja</string>
+    <string name="mascarillaFac">Mascarilla facial</string>
+
+    <!--  Strings para las descripciones de los servicios  -->
+
+    <string name="corteDesvanDesc">Un corte que se caracteriza por tener un aspecto limpio y bien definido.</string>
+    <string name="arregloBarbDesc">Consiste en recortar, dar forma, limpiar y peinar la barba para lograr una apariencia estilizada.</string>
+    <string name="corteEscolarDesc">El corte ideal para estudiantes o niños. Mantiene el cabello corto.</string>
+    <string name="afeitadoExpDesc">Se elimina el vello facial de manera rápida y efectiva.</string>
+    <string name="disenosDesc">Contamos con variedad de cortes de pelo y estilos de barba. Puedes consultar con tu barbero el catálogo de cortes.</string>
+    <string name="arregloCejaDesc">Elimina el vello no deseado para dar forma y resaltar los rasgos faciales.</string>
+    <string name="mascarillaFacDesc">Se emplea para hidratar, purificar e iluminar tu cara.</string>
+
+
+    <!--  Strings para las descripciones de las imágenes e iconos  -->
+
+    <string name="logoFlacks">Logo flacks</string>
+
+    <!--  Strings para la barra de navegación -->
+
+    <string name="inicio">Inicio</string>
+    <string name="producto">Productos</string>
+    <string name="servicio">Servicios</string>
+    <string name="reserva">Reserva</string>
+    <string name="contacto">Contácto</string>
+
+    <!--  Strings para reservaciones   -->
+
+    <string name="reservaAhora">¡Reserva ahora!</string>
+    <string name="menReserv">Completa los datos para terminar tu reservación</string>
+    <string name="descripcion">Descripción: </string>
+    <string name="horario_msg">Horarios disponibles:</string>
+    <string name="horarios">12:00 - 13:00, 13:00 - 14:00  14:00 - 15:00, 15:00 - 16:00</string>
+    <string name="precio_tiempo">$90.00 MXN | 15 - 20 min</string>
+    <string name="mensaje">Añade un mensaje (opcional)</string>
+
+
+    <string name="LoremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <!--  Strings para los productos  -->
+
+    <!--  Strings para los nombres de las marcas de los productos  -->
+
+    <string name="imperial">Imperial</string>
+    <string name="conchaNacar">Concha nácar</string>
+    <string name="donPorfirio">Don Porfirio</string>
+    <string name="cuatroCuatro">4x4</string>
+    <string name="toppik">Toppik</string>
+    <string name="graveBefore">Grave before shave</string>
+    <string name="fisticuffs">Fisticuffs</string>
+
+    <!--  Strings para los tipos de productos  -->
+
+    <string name="cremaBarba">Crema para la barba</string>
+    <string name="pomadaBarba">Pomada para la barba</string>
+    <string name="crema">Crema</string>
+    <string name="balsamoBarba">Bálsamo para la barba</string>
+    <string name="polvoVolum">Polvo voluminizador</string>
+    <string name="fibraCabello">Fibra para el cabello</string>
+    <string name="shampooBarba">Shampoo para la barba</string>
+    <string name="cera">Cera</string>
+
+    <!--  Strings sobre los materiales de los productos  -->
+
+    <string name="cremaBarbaMat">Crema para la barba con aceite de argán</string>
+    <string name="pomadaBarbaMat">Pomada enriquecida con ingredientes naturales</string>
+    <string name="cremaMat">Crema con carbón activado</string>
+    <string name="balsamoBarbaMat">Bálsamo hecho con aceite de argán y vitamina E</string>
+    <string name="polvoVolumMat">Polvo hecho a base de extracto de bambú</string>
+    <string name="fibraCabelloMat">Fibra hecha a base de queratina</string>
+    <string name="shampooBarbaMat">Sahmpoo enriquecido con aceite de jojoba</string>
+    <string name="ceraMat">Cera elaborada con cera de abeja</string>
+
+    <!--  Strings para las descripciones de los productos   -->
+
+    <string name="imperialDesc">Mantiene hidratado y suave el cabello de tu barba.</string>
+    <string name="imperial2Desc">Controla el volumen de tu barba y obtén el estilo que desees.</string>
+    <string name="cremaDesc">Ayuda a que los peinados se mantengan en su lugar y brinda un aspecto voluminoso.</string>
+    <string name="donPorfDesc">Fortalece tu barba y la mantiene saludable e hidratada.</string>
+    <string name="cuatroDesc">Absorbe el exceso de grasa del cuero cabelludo.</string>
+    <string name="topikkDesc">Añade grosor al cabello y lo mantiene firme.</string>
+    <string name="graveBefDesc">Elimina y previene la suciedad de tu barba.</string>
+    <string name="fisticuffsDesc">Proporciona buena fijación durante todo el día.</string>
+
+    <!--  Strings para  los precios  -->
+
+    <string name="ochentaPesos">$80.00 MXN</string>
+    <string name="noventaPesos">$90.00 MXN</string>
+    <string name="cienPesos">$100.00 MXN</string>
+    <string name="cientoVeintePesos">$120.00 MXN</string>
+    <string name="cientoTreintaPesos">$130.00 MXN</string>
+    <string name="cientoCincuentaPesos">$150.00 MXN</string>
+
+
+    <!--  Strings relacionados con los productos y servicios  -->
+
+    <string name="valoracion">Valoración: </string>
+    <string name="cantidad">Cantidad: </string>
+    <string name="btnCompra">Apartar producto(s)</string>
+    <string name="btnReserva">¡Reservar servicio!</string>
+    <string name="cantidadNum">0</string>
+
+
+    <!--  Strings sobre apartar producto  -->
+
+    <string name="apartaAhora">¡Aparta tu producto!</string>
+    <string name="menApart">Completa los datos para terminar de apartar tu producto</string>
+    <string name="precioTiempo">$100.00 MXN | Imperial</string>
+    <string name="receptor">Nombre del receptor</string>
+    <string name="telefono">Número telefónico</string>
+    <string name="btnAparta">Generar ticket</string>
+    <string name="btnProductos">Productos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

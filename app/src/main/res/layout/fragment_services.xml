@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.services.ServicesFragment">
+
+    <!-- ScrollView para mostrar los servicios-->
+    <ScrollView
+        android:id="@+id/scrollService"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <!-- GridLayout para las imágenes de los servicios-->
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="2"
+            android:rowCount="4">
+
+            <!-- Código para mostrar los servicios -->
+
+            <!-- Primer servicio -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="7.5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnDesvanecidoService"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:onClick="desvanecidoService"
+                    android:padding="12dp">
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/corte1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/corte1" />
+
+                    <!-- Texto de tiempo -->
+                    <TextView
+                        android:id="@+id/tiempo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="@string/cuarentaSesenta"
+                        android:textColorHint="@color/golden_rod"
+                        android:layout_marginBottom="5dp"/>
+
+                    <!-- Texto de servicio -->
+                    <TextView
+                        android:id="@+id/servicio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/corteDesvan"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cienPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Segundo servicio -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="7.5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnArregloBarbaService"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:onClick="arregloBarbaService"
+                    android:padding="12dp">
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/corte2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/corte2" />
+
+                    <!-- Texto de tiempo -->
+                    <TextView
+                        android:id="@+id/tiempo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="@string/treinta"
+                        android:textColorHint="@color/golden_rod"
+                        android:layout_marginBottom="5dp" />
+
+                    <!-- Texto de servicio -->
+                    <TextView
+                        android:id="@+id/servicio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/arregloBarba"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cientoCincuentaPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Tercer servicio -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="7.5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnCorteEscolarService"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:onClick="corteEscolarService"
+                    android:padding="12dp">
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/corte3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/corte3" />
+
+                    <!-- Texto de tiempo -->
+                    <TextView
+                        android:id="@+id/tiempo3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="@string/treinta"
+                        android:textColorHint="@color/golden_rod"
+                        android:layout_marginBottom="5dp" />
+
+                    <!-- Texto de servicio -->
+                    <TextView
+                        android:id="@+id/servicio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/corteEscolar"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/ochentaPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Cuarto servicio -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="7.5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnAfeitadoService"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:onClick="afeitadoService"
+                    android:padding="12dp">
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/corte4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/corte4" />
+
+                    <!-- Texto de tiempo -->
+                    <TextView
+                        android:id="@+id/tiempo4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="@string/quinceVeinte"
+                        android:textColorHint="@color/golden_rod"
+                        android:layout_marginBottom="5dp" />
+
+                    <!-- Texto de servicio -->
+                    <TextView
+                        android:id="@+id/servicio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/afeitadoExp"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/noventaPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Quinto servicio -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="7.5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnDisenosService"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:onClick="disenosService"
+                    android:padding="12dp">
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/corte5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/corte5" />
+
+                    <!-- Texto de servicio -->
+                    <TextView
+                        android:id="@+id/servicio5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/disenos"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Sexto servicio -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="7.5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnArregloCejaService"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:onClick="arregloCejaService"
+                    android:padding="12dp">
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/corte6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/corte6" />
+
+                    <!-- Texto de tiempo -->
+                    <TextView
+                        android:id="@+id/tiempo6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="@string/diez"
+                        android:textColorHint="@color/golden_rod"
+                        android:layout_marginBottom="5dp" />
+
+                    <!-- Texto de servicio -->
+                    <TextView
+                        android:id="@+id/servicio6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/arregloCeja"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cienPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Séptimo servicio -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="166dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="7.5dp">
+
+                <LinearLayout
+                    android:id="@+id/btnMascarillaService"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:onClick="mascarillaService"
+                    android:padding="12dp">
+
+                    <!-- Imagen -->
+                    <ImageView
+                        android:id="@+id/corte7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/corte7" />
+
+                    <!-- Texto de tiempo -->
+                    <TextView
+                        android:id="@+id/tiempo7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="@string/sesenta"
+                        android:textColorHint="@color/golden_rod"
+                        android:layout_marginBottom="5dp" />
+
+                    <!-- Texto de servicio -->
+                    <TextView
+                        android:id="@+id/servicio7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/mascarillaFac"
+                        android:textStyle="bold" />
+
+                    <!-- Texto de Precio -->
+                    <TextView
+                        android:id="@+id/precio7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/cientoTreintaPesos" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</FrameLayout>

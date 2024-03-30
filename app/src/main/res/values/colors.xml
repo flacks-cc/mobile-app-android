@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="medium_white">#F5F5F5</color>
+    <color name="golden_rod">#DAA520</color>
+    <color name="golden_yellow">#FFDF00</color>
+
+    <!--  Colores para los textos  -->
+    <color name="titulo1">#DD1515</color>
+    <color name="titulo2">#000000</color>
+    <color name="titulo3">#000000</color>
+    <color name="flacks">#DAA520</color>
+</resources>
