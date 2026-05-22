@@ -47,12 +47,6 @@ cd mobile-app-android
 ./gradlew assembleDebug
 ```
 
-## Architecture
-
-```
-(TBD)
-```
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, commit conventions, and PR workflow.
