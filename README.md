@@ -1,14 +1,19 @@
-<h1 align="center">📱 Flack's Cut & Connect — Native Android App</h1>
+# Flack's Cut & Connect — Native Android App
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Java-21-f89820?logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/License-GPL_v3-0298c3?logo=gnu&logoColor=white" alt="GPL v3">
+</p>
 
 <p align="center">
   <em>Native Android application for service browsing, reservations, and account management</em>
 </p>
 
 <p align="center">
-  <a href="https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white"><img src="https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white" alt="Android"></a>
-  <a href="https://img.shields.io/badge/Java-21-f89820?logo=openjdk&logoColor=white"><img src="https://img.shields.io/badge/Java-21-f89820?logo=openjdk&logoColor=white" alt="Java"></a>
-  <a href="https://img.shields.io/badge/License-GPL_v3-0298c3?logo=gnu&logoColor=white"><img src="https://img.shields.io/badge/License-GPL_v3-0298c3?logo=gnu&logoColor=white" alt="GPL v3"></a>
-  <a href="https://img.shields.io/badge/Status-Active-2ea44f"><img src="https://img.shields.io/badge/Status-Active-2ea44f" alt="Active"></a>
+  <a href="https://github.com/flacks-cc/mobile-app-android">Repository</a>
+  ·
+  <a href="https://github.com/flacks-cc/mobile-app-android/issues">Report Bug</a>
 </p>
 
 <p align="center">
@@ -17,7 +22,18 @@
 
 ---
 
-## 🚀 Quick Start
+## About Flack's Cut & Connect
+
+Native Android application built with Java and Android SDK for barbershop clients. Provides service browsing, appointment booking, account management, and push notifications.
+
+## Features
+
+- Browse services and products
+- Book appointments
+- Receive push notifications
+- Manage account
+
+## Quick Start
 
 ### Prerequisites
 
@@ -25,7 +41,7 @@
 - JDK 21
 - Android SDK 34
 
-### Installation
+### Setup
 
 ```bash
 git clone https://github.com/flacks-cc/mobile-app-android.git
@@ -33,43 +49,35 @@ cd mobile-app-android
 ./gradlew assembleDebug
 ```
 
-## 🧩 Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Language | Java 21 |
-| UI | Android XML |
-| Build | Gradle KTS |
-| Auth | JWT |
-
-## 📂 Project Structure
+## Architecture
 
 ```
-mobile-app-android/
-├── app/
-│   └── src/
-├── gradle/
-├── build.gradle.kts
-├── settings.gradle.kts
-└── README.md
+(TBD)
 ```
 
-## 🤝 Contributing
+## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, commit conventions, and PR workflow.
 
-## 📄 License
+## License
 
-GPL v3 — see [LICENSE](LICENSE).
+This project is licensed under the GPL v3 — see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 **Authors:**
 
-- [@chrisssp](https://github.com/chrisssp) — Developer
+- Serrano Puertos Jorge Christian
+- Chávez Moreno José Eduardo
+- Fernández López Kevin Noé
+- Florentino Altamirano Misrael
+- Ortiz Pérez Alejandro
+- Moises Torres Bernabé
 
----
+**Advisors:**
 
-<p align="center">
-  <sub>Built with ❤️ by the flacks-cc team · 2026</sub>
-</p>
+- (TBD)
+
+**Academic Support:**
+
+- (TBD)

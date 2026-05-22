@@ -1,14 +1,19 @@
-<h1 align="center">📱 Flack's Cut & Connect — App Android Nativa</h1>
+# Flack's Cut & Connect — App Android Nativa
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Java-21-f89820?logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Licencia-GPL_v3-0298c3?logo=gnu&logoColor=white" alt="GPL v3">
+</p>
 
 <p align="center">
   <em>Aplicación Android nativa para explorar servicios, reservas y gestión de cuenta</em>
 </p>
 
 <p align="center">
-  <a href="https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white"><img src="https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white" alt="Android"></a>
-  <a href="https://img.shields.io/badge/Java-21-f89820?logo=openjdk&logoColor=white"><img src="https://img.shields.io/badge/Java-21-f89820?logo=openjdk&logoColor=white" alt="Java"></a>
-  <a href="https://img.shields.io/badge/Licencia-GPL_v3-0298c3?logo=gnu&logoColor=white"><img src="https://img.shields.io/badge/Licencia-GPL_v3-0298c3?logo=gnu&logoColor=white" alt="GPL v3"></a>
-  <a href="https://img.shields.io/badge/Estado-Activo-2ea44f"><img src="https://img.shields.io/badge/Estado-Activo-2ea44f" alt="Activo"></a>
+  <a href="https://github.com/flacks-cc/mobile-app-android">Repositorio</a>
+  ·
+  <a href="https://github.com/flacks-cc/mobile-app-android/issues">Reportar error</a>
 </p>
 
 <p align="center">
@@ -17,7 +22,18 @@
 
 ---
 
-## 🚀 Inicio rápido
+## Acerca de Flack's Cut & Connect
+
+Aplicación Android nativa construida con Java y Android SDK para clientes de barberías. Ofrece exploración de servicios, reserva de citas, gestión de cuenta y notificaciones push.
+
+## Funcionalidades
+
+- Explorar servicios y productos
+- Reservar citas
+- Recibir notificaciones push
+- Administrar cuenta
+
+## Inicio rápido
 
 ### Requisitos previos
 
@@ -33,43 +49,35 @@ cd mobile-app-android
 ./gradlew assembleDebug
 ```
 
-## 🧩 Tecnologías
-
-| Capa | Tecnología |
-|------|-----------|
-| Lenguaje | Java 21 |
-| UI | Android XML |
-| Build | Gradle KTS |
-| Autenticación | JWT |
-
-## 📂 Estructura del proyecto
+## Arquitectura
 
 ```
-mobile-app-android/
-├── app/
-│   └── src/
-├── gradle/
-├── build.gradle.kts
-├── settings.gradle.kts
-└── README.md
+(Pendiente)
 ```
 
-## 🤝 Contribuciones
+## Contribuciones
 
-Lee [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles.
+Lee [CONTRIBUTING.md](CONTRIBUTING.md) para conocer las convenciones de ramas, commits y PRs.
 
-## 📄 Licencia
+## Licencia
 
-GPL v3 — ver [LICENSE](LICENSE).
+Este proyecto está bajo la licencia GPL v3 — ver [LICENSE](LICENSE) para más detalles.
 
-## 🙏 Agradecimientos
+## Agradecimientos
 
 **Authors:**
 
-- [@chrisssp](https://github.com/chrisssp) — Desarrollador
+- Serrano Puertos Jorge Christian
+- Chávez Moreno José Eduardo
+- Fernández López Kevin Noé
+- Florentino Altamirano Misrael
+- Ortiz Pérez Alejandro
+- Moises Torres Bernabé
 
----
+**Advisors:**
 
-<p align="center">
-  <sub>Hecho con ❤️ por el equipo flacks-cc · 2026</sub>
-</p>
+- (TBD)
+
+**Apoyo académico:**
+
+- (TBD)
